@@ -1,0 +1,70 @@
+{
+    "resourceType" : "List",
+    "id" : "Example-McBee-PersonalPrioritiesOrganizer1",
+    "meta" : {
+      "profile" : [
+        "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalPrioritiesOrganizer"
+      ]
+    },
+    "text" : {
+      "status" : "additional",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</p><ol><li><i>Being at peace with my God</i></li><li><i>Dying at home</i></li><li><i>Being able to feed, bathe, and take care of myself</i></li><li><i>Being free from pain</i></li><li><i>Resolving conflicts</i></li><li><i>Being with my family</i></li><li><i>Not being a financial burden to my family</i></li></ol></div>"
+    },
+    "status" : "current",
+    "mode" : "working",
+    "title" : "My Advance Care Goals",
+    "code" : {
+      "coding" : [
+        {
+          "system" : "http://loinc.org",
+          "code" : "81340-2",
+          "display" : "Goals AndOr Preferences in Order of Priority [Reported]"
+        }
+      ]
+    },
+    "orderedBy" : {
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/list-order",
+          "code" : "priority"
+        }
+      ]
+    },
+    "entry" : [
+      {
+        "item" : {
+          "reference" : "Goal/Example-McBee-PersonalGoal1"
+        }
+      },
+      {
+        "item" : {
+          "reference" : "Goal/Example-McBee-PersonalGoal2"
+        }
+      },
+      {
+        "item" : {
+          "reference" : "Goal/Example-McBee-PersonalGoal3"
+        }
+      },
+      {
+        "item" : {
+          "reference" : "Goal/Example-McBee-PersonalGoal4"
+        }
+      },
+      {
+        "item" : {
+          "reference" : "Goal/Example-McBee-PersonalGoal5"
+        }
+      },
+      {
+        "item" : {
+          "reference" : "Goal/Example-McBee-PersonalGoal6"
+        }
+      },
+      {
+        "item" : {
+          "reference" : "Goal/Example-McBee-PersonalGoal7"
+        }
+      }
+    ]
+  }

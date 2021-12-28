@@ -1,0 +1,87 @@
+{
+    "resourceType" : "ValueSet",
+    "id" : "SDOHCC-ValueSet-SDOHDomain-1",
+    "meta" : {
+      "versionId" : "12",
+      "lastUpdated" : "2021-04-30T21:03:07.780+00:00",
+      "source" : "#k6WcuOpcl4bUzXKD"
+    },
+    "text" : {
+      "status" : "extensions",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-sdohcc-temporary-codes.html\"><code>http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-sdohcc-temporary-codes.html#sdohcc-temporary-codes-sdoh-category-unspecified\">sdoh-category-unspecified</a></td><td>SDOH Category Unspecified</td><td>Category for Social Determinant of Health artifacts that are not further specified with respect to category.</td></tr><tr><td><a href=\"CodeSystem-sdohcc-temporary-codes.html#sdohcc-temporary-codes-food-insecurity\">food-insecurity</a></td><td>Food Insecurity</td><td>Category for Social Determinant of Health artifacts that pertain to Food Insecurity (which is defined as: Uncertain, limited, or unstable access to food that is: adequate in quantity and in nutritional quality; culturally acceptable; safe and acquired in socially acceptable ways.) This SDOH category covers assertions that range from Food Insecurity to Food Security.</td></tr><tr><td><a href=\"CodeSystem-sdohcc-temporary-codes.html#sdohcc-temporary-codes-housing-instability-homelessness\">housing-instability-homelessness</a></td><td>Housing Instability Homelessness</td><td>Category for Social Determinant of Health artifacts that pertain to Housing Instability and/or Homelessness (which are respectively defined as defined as: 1) Housing Instability: Currently consistently housed, but experiencing any of the following circumstances in the past 12 months: being behind on rent or mortgage, multiple moves, or housing cost burden; 2) Sheltered Homelessness: because of economic difficulties, currently living in a shelter, motel, temporary or transitional living situation, scattered-site housing, or not having a consistent place to sleep at night; and 3) Unsheltered Homelessness: residing in a place not meant for human habitation, such as cars, parks, sidewalks, abandoned buildings, on the street.) This SDOH category covers assertions that range from Housing Instability and Homelessness to Stably Housed.</td></tr><tr><td><a href=\"CodeSystem-sdohcc-temporary-codes.html#sdohcc-temporary-codes-inadequate-housing\">inadequate-housing</a></td><td>Inadequate Housing</td><td>Category for Social Determinant of Health artifacts that pertain to Inadequate Housing (which is defined as: Housing does not meet habitability standards.) This SDOH category covers assertions that range from Inadequate Housing to Adequate Housing.</td></tr><tr><td><a href=\"CodeSystem-sdohcc-temporary-codes.html#sdohcc-temporary-codes-transportation-insecurity\">transportation-insecurity</a></td><td>Transportation Insecurity</td><td>Category for Social Determinant of Health artifacts that pertain to Transportation Insecurity (which is defined as: Uncertain, limited, or no access to safe, reliable, accessible, affordable, and socially acceptable transportation infrastructure and modalities necessary for maintaining one’s health, well-being, or livelihood.) This SDOH category covers assertions that range from Transportation Insecurity to Transportation Security.</td></tr><tr><td><a href=\"CodeSystem-sdohcc-temporary-codes.html#sdohcc-temporary-codes-financial-insecurity\">financial-insecurity</a></td><td>Financial Insecurity</td><td>Category for Social Determinant of Health artifacts that pertain to Financial Insecurity (which is defined as: A state of being wherein a person has difficulty fully meeting current and/or ongoing financial obligations and/or does not feel secure in their financial future.) This SDOH category covers assertions that range from Financial Insecurity to Financial Security.</td></tr><tr><td><a href=\"CodeSystem-sdohcc-temporary-codes.html#sdohcc-temporary-codes-educational-attainment\">educational-attainment</a></td><td>Educational Attainment</td><td>Category for Social Determinant of Health artifacts that pertain to the level of education attained (which, in this context, is defined by whether one has or has not met academic criteria for high school diploma or equivalent.) This SDOH category covers assertions that range from 'Lacks a high school diploma/certificate' to 'Has a high school diploma/certificate'.</td></tr><tr><td><a href=\"CodeSystem-sdohcc-temporary-codes.html#sdohcc-temporary-codes-employment-status\">employment-status</a></td><td>Employment Status</td><td>Category for Social Determinant of Health artifacts that pertain to the status of one's employment (which, in this context, is defined by whether one has or does not have a job and is looking for and available for work). This SDOH category covers assertions that range from 'In labor force' (Unemployed to Employed), or 'Not in labor force'.</td></tr><tr><td><a href=\"CodeSystem-sdohcc-temporary-codes.html#sdohcc-temporary-codes-veteran-status\">veteran-status</a></td><td>Veteran Status</td><td>Category for Social Determinant of Health artifacts that pertain to veteran status (which, in this context, is defined by whether one has or has not served as active military with honorable release or discharge.) This SDOH category covers assertions that range from 'Veteran/History of military service' to 'No history of military service'.</td></tr></table></li></ul></div>"
+    },
+    "url" : "http://hl7.org/fhir/us/sdoh-clinicalcare/ValueSet/SDOHCC-ValueSet-SDOHDomain-1",
+    "version" : "0.1.1",
+    "name" : "SDOHCC_ValueSet_SDOHDomain_1",
+    "title" : "SDOHCC ValueSet SDOHDomain 1",
+    "status" : "draft",
+    "date" : "2020-12-14T04:01:34+00:00",
+    "publisher" : "HL7 International - Patient Care WG",
+    "contact" : [
+      {
+        "name" : "HL7 International - Patient Care",
+        "telecom" : [
+          {
+            "system" : "url",
+            "value" : "http://www.hl7.org/Special/committees/patientare"
+          }
+        ]
+      }
+    ],
+    "description" : "This value set is defined extensionally to include concepts that represent Social Determinant of Health domains.",
+    "jurisdiction" : [
+      {
+        "coding" : [
+          {
+            "system" : "urn:iso:std:iso:3166",
+            "code" : "US"
+          }
+        ]
+      }
+    ],
+    "compose" : {
+      "include" : [
+        {
+          "system" : "http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes",
+          "concept" : [
+            {
+              "code" : "sdoh-category-unspecified",
+              "display" : "SDOH Category Unspecified"
+            },
+            {
+              "code" : "food-insecurity",
+              "display" : "Food Insecurity"
+            },
+            {
+              "code" : "housing-instability-homelessness",
+              "display" : "Housing Instability Homelessness"
+            },
+            {
+              "code" : "inadequate-housing",
+              "display" : "Inadequate Housing"
+            },
+            {
+              "code" : "transportation-insecurity",
+              "display" : "Transportation Insecurity"
+            },
+            {
+              "code" : "financial-insecurity",
+              "display" : "Financial Insecurity"
+            },
+            {
+              "code" : "educational-attainment",
+              "display" : "Educational Attainment"
+            },
+            {
+              "code" : "employment-status",
+              "display" : "Employment Status"
+            },
+            {
+              "code" : "veteran-status",
+              "display" : "Veteran Status"
+            }
+          ]
+        }
+      ]
+    }
+  }

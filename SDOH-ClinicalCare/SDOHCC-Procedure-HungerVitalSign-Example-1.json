@@ -1,0 +1,50 @@
+{
+    "resourceType" : "Procedure",
+    "id" : "SDOHCC-Procedure-HungerVitalSign-Example-1",
+    "meta" : {
+      "versionId" : "4",
+      "lastUpdated" : "2021-04-12T21:17:31.538+00:00",
+      "source" : "#shquwICEykYUMnsI",
+      "profile" : [
+        "http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Procedure-Base-1"
+      ]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>basedOn</b>: <a href=\"ServiceRequest-SDOHCC-ServiceRequest-HungerVitalSign-Example-1.html\">Generated Summary: status: completed; intent: order; <span title=\"Codes: {http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes food-insecurity}\">Food Insecurity</span>; <span title=\"Codes: {http://snomed.info/sct 467771000124109}\">Assistance with application for food pantry program</span></a></p><p><b>status</b>: completed</p><p><b>category</b>: <span title=\"Codes: {http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes food-insecurity}\">Food Insecurity</span></p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 467771000124109}\">Assistance with application for food pantry program</span></p><p><b>subject</b>: <a href=\"Patient-pat-53234.html\">COLIN ABBAS. Generated Summary: Medical Record Number: 1032702 (USUAL); active; COLIN V. ABBAS , COLIN V. BAXTER ; Phone: 555-555-5555; gender: male; birthDate: 1987-02-20</a></p><p><b>performed</b>: 2021-05-31</p><p><b>reasonReference</b>: <a href=\"Condition-SDOHCC-Condition-HungerVitalSign-Example-1.html\">Generated Summary: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span>; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status unconfirmed}\">Unconfirmed</span>; <span title=\"Codes: {http://hl7.org/fhir/us/core/CodeSystem/condition-category health-concern}\">Health Concern</span>, <span title=\"Codes: {http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes food-insecurity}\">Food Insecurity</span>; <span title=\"Codes: {http://snomed.info/sct 733423003}\">Food insecurity</span>; onset: Aug 18, 2019, 12:31:35 PM --&gt; (ongoing)</a></p></div>"
+    },
+    "basedOn" : [
+      {
+        "reference" : "ServiceRequest/SDOHCC-ServiceRequest-HungerVitalSign-Example-1"
+      }
+    ],
+    "status" : "completed",
+    "category" : {
+      "coding" : [
+        {
+          "system" : "http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes",
+          "code" : "food-insecurity",
+          "display" : "Food Insecurity"
+        }
+      ]
+    },
+    "code" : {
+      "coding" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "467771000124109",
+          "display" : "Assistance with application for food pantry program"
+        }
+      ]
+    },
+    "subject" : {
+      "reference" : "Patient/pat-53234",
+      "display" : "COLIN ABBAS"
+    },
+    "performedDateTime" : "2021-05-31",
+    "reasonReference" : [
+      {
+        "reference" : "Condition/SDOHCC-Condition-HungerVitalSign-Example-1"
+      }
+    ]
+  }

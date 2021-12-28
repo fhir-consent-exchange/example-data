@@ -1,0 +1,52 @@
+{
+    "resourceType" : "Observation",
+    "id" : "SDOHCC-Observation-AssessmentFoodInsecurity-Example-1",
+    "meta" : {
+      "versionId" : "4",
+      "lastUpdated" : "2021-04-21T14:59:02.734+00:00",
+      "source" : "#l4b8snk7WeORxU6J",
+      "profile" : [
+        "http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Observation-Assessment-Base-1"
+      ]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category social-history}\">Social History</span>, <span title=\"Codes: {http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes food-insecurity}\">Food Insecurity</span></p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 699653008}\">Inadequate oral food intake for physiological needs</span></p><p><b>subject</b>: <a href=\"Patient-pat-53234.html\">COLIN ABBAS. Generated Summary: Medical Record Number: 1032702 (USUAL); active; COLIN V. ABBAS , COLIN V. BAXTER ; Phone: 555-555-5555; gender: male; birthDate: 1987-02-20</a></p><p><b>effective</b>: May 10, 2021, 9:56:54 PM</p><p><b>value</b>: true</p></div>"
+    },
+    "status" : "final",
+    "category" : [
+      {
+        "coding" : [
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code" : "social-history",
+            "display" : "Social History"
+          }
+        ]
+      },
+      {
+        "coding" : [
+          {
+            "system" : "http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes",
+            "code" : "food-insecurity",
+            "display" : "Food Insecurity"
+          }
+        ]
+      }
+    ],
+    "code" : {
+      "coding" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "699653008",
+          "display" : "Inadequate oral food intake for physiological needs"
+        }
+      ]
+    },
+    "subject" : {
+      "reference" : "Patient/pat-53234",
+      "display" : "COLIN ABBAS"
+    },
+    "effectiveDateTime" : "2021-05-10T21:56:54.671Z",
+    "valueBoolean" : true
+  }

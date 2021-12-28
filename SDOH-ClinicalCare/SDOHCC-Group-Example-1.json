@@ -1,0 +1,52 @@
+{
+    "resourceType" : "Group",
+    "id" : "SDOHCC-Group-Example-1",
+    "meta" : {
+      "versionId" : "3",
+      "lastUpdated" : "2021-04-14T16:55:08.921+00:00",
+      "source" : "#7v1Z1BaX6WU8jQR2",
+      "profile" : [
+        "http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Group-Base-1"
+      ]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>type</b>: person</p><p><b>actual</b>: true</p><p><b>name</b>: CDE payor's SDOH condition patients</p><blockquote><p><b>characteristic</b></p><p><b>code</b>: <span title=\"Codes: {http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes sdoh-condition-category}\">Current Condition Category From SDOH Category</span></p><p><b>value</b>: <a href=\"http://hl7.org/fhir/us/sdoh-clinicalcare/ValueSet/SDOHCC-ValueSet-SDOHDomain-1\">Generated Summary: url: http://hl7.org/fhir/us/sdoh-clinicalcare/ValueSet/SDOHCC-ValueSet-SDOHDomain-1; version: 0.1.1; name: SDOHCC_ValueSet_SDOHDomain_1; title: SDOHCC ValueSet SDOHDomain 1; DRAFT; date: Dec 14, 2020, 4:01:34 AM; publisher: HL7 International - Patient Care WG; HL7 International - Patient Care: http://www.hl7.org/Special/com...; description: This value set is defined extensionally to include concepts that represent Social Determinant of Health domains.; <span title=\"Codes: {urn:iso:std:iso:3166 US}\">United States of America</span></a></p><p><b>exclude</b>: false</p></blockquote><blockquote><p><b>characteristic</b></p><p><b>code</b>: <span title=\"Codes: {http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes payor-coverage}\">Coverage By Payor Organization</span></p><p><b>value</b>: <a href=\"Organization-SDOHCC-Organization-Payor-Example-1.html\">Generated Summary: active; name: CDE Payor</a></p><p><b>exclude</b>: false</p></blockquote></div>"
+    },
+    "active" : true,
+    "type" : "person",
+    "actual" : true,
+    "name" : "CDE payor's SDOH condition patients",
+    "characteristic" : [
+      {
+        "code" : {
+          "coding" : [
+            {
+              "system" : "http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes",
+              "code" : "sdoh-condition-category",
+              "display" : "Current Condition Category From SDOH Category"
+            }
+          ]
+        },
+        "valueReference" : {
+          "reference" : "http://hl7.org/fhir/us/sdoh-clinicalcare/ValueSet/SDOHCC-ValueSet-SDOHDomain-1"
+        },
+        "exclude" : false
+      },
+      {
+        "code" : {
+          "coding" : [
+            {
+              "system" : "http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes",
+              "code" : "payor-coverage",
+              "display" : "Coverage By Payor Organization"
+            }
+          ]
+        },
+        "valueReference" : {
+          "reference" : "Organization/SDOHCC-Organization-Payor-Example-1"
+        },
+        "exclude" : false
+      }
+    ]
+  }

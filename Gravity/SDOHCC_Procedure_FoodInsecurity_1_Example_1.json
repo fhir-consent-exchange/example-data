@@ -1,0 +1,53 @@
+{
+    "resourceType": "Procedure",
+    "id": "SDOHCC-Procedure-FoodInsecurity-1-Example-1",
+    "meta": {
+      "versionId": "8",
+      "lastUpdated": "2020-04-30T11:29:29.140+00:00",
+      "source": "#Mx6Q8aoiUIHUcb09"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: SDOHCC-Procedure-FoodInsecurity-1-Example-1</p><p><b>meta</b>: </p><p><b>text</b>: </p><p><b>status</b>: completed</p><p><b>category</b>: <span title=\"Codes: {http://snomed.info/sct 410606002}\">Social service procedure</span></p><p><b>code</b>: <span title=\"Codes: {http://hl7.org/fhir/us/sdoh-cc/CodeSystem/sdohcc-temporary-codes sdohcc-sctt-151000243108}\">Assistance with application for food program</span></p><p><b>subject</b>: <a href=\"Patient-SDOHCC-Patient-pat1-Example-1.html\">Generated Summary: id: SDOHCC-Patient-pat1-Example-1; 738472983 (USUAL), ?ngen-9? (USUAL); active; Pieter van de Heuvel ; ph: 0648352638(MOBILE), p.heuvel@gmail.com(HOME); gender: male; birthDate: 1944-11-17; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Getrouwd</span>; multipleBirth</a></p><p><b>encounter</b>: <a href=\"Encounter-SDOHCC-Encounter-f203-Example-1.html\">Encounter with patient @exampleGenerated Summary: id: SDOHCC-Encounter-f203-Example-1; status: in-progress; <span title=\"{http://terminology.hl7.org/CodeSystem/v3-ActCode IMP}\">inpatient encounter</span></a></p><p><b>performed</b>: Jul 30, 2019, 12:00:00 AM</p><h3>Performers</h3><table class=\"grid\"><tr><td>-</td><td><b>Actor</b></td></tr><tr><td>*</td><td><a href=\"Practitioner-SDOHCC-Practitioner-f005-Example-1.html\">Generated Summary: id: SDOHCC-Practitioner-f005-Example-1; 118265112 (OFFICIAL), 191REW8WE916 (USUAL); Langeveld Anne (OFFICIAL); ph: 0205563847(WORK), a.langeveld@bmc.nl(WORK), fax: 0205668916(WORK); gender: female; birthDate: 1959-03-11; <span title=\"Codes: {urn:ietf:bcp:47 fr}\">French</span></a></td></tr></table><p><b>reasonReference</b>: <a href=\"Condition-SDOHCC-Condition-FoodInsecurity-1-Example-1.html\">Generated Summary: id: SDOHCC-Condition-FoodInsecurity-1-Example-1; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical inactive}\">Inactive</span>; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span>; <span title=\"Codes: {http://hl7.org/fhir/us/core/CodeSystem/condition-category health-concern}\">Health Concern</span>; <span title=\"Codes: {http://snomed.info/sct 733423003}\">Food insecurity</span>; onset: May 1, 2019, 12:00:00 AM; abatement: Oct 27, 2019, 12:00:00 AM</a></p></div>"
+    },
+    "status": "completed",
+    "category": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "410606002",
+          "display": "Social service procedure (procedure)"
+        }
+      ],
+      "text": "Social service procedure"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/sdoh-cc/CodeSystem/sdohcc-temporary-codes",
+          "code": "sdohcc-sctt-151000243108",
+          "display": "Assistance with application for food program (procedure)"
+        }
+      ],
+      "text": "Assistance with application for food program"
+    },
+    "subject": {
+      "reference": "Patient/SDOHCC-Patient-pat1-Example-1"
+    },
+    "encounter": {
+      "reference": "Encounter/SDOHCC-Encounter-f203-Example-1"
+    },
+    "performedDateTime": "2019-07-30",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/SDOHCC-Practitioner-f005-Example-1"
+        }
+      }
+    ],
+    "reasonReference": [
+      {
+        "reference": "Condition/SDOHCC-Condition-FoodInsecurity-1-Example-1"
+      }
+    ]
+  }

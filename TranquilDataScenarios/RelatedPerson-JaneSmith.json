@@ -1,0 +1,129 @@
+{
+    "resourceType" : "RelatedPerson",
+    "id" : "related-person-jane-smith",
+    "extension" : [
+      {
+        "url" : "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension" : [
+          {
+            "url" : "ombCategory",
+            "valueCoding" : {
+              "system" : "urn:oid:2.16.840.1.113883.6.238",
+              "code" : "2106-3",
+              "display" : "White"
+            }
+          },
+          {
+            "url" : "ombCategory",
+            "valueCoding" : {
+              "system" : "urn:oid:2.16.840.1.113883.6.238",
+              "code" : "1002-5",
+              "display" : "American Indian or Alaska Native"
+            }
+          },
+          {
+            "url" : "ombCategory",
+            "valueCoding" : {
+              "system" : "urn:oid:2.16.840.1.113883.6.238",
+              "code" : "2028-9",
+              "display" : "Asian"
+            }
+          },
+          {
+            "url" : "detailed",
+            "valueCoding" : {
+              "system" : "urn:oid:2.16.840.1.113883.6.238",
+              "code" : "2036-2",
+              "display" : "Filipino"
+            }
+          },
+          {
+            "url" : "text",
+            "valueString" : "Mixed"
+          }
+        ]
+      },
+      {
+        "url" : "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension" : [
+          {
+            "url" : "ombCategory",
+            "valueCoding" : {
+              "system" : "urn:oid:2.16.840.1.113883.6.238",
+              "code" : "2135-2",
+              "display" : "Hispanic or Latino"
+            }
+          },
+          {
+            "url" : "detailed",
+            "valueCoding" : {
+              "system" : "urn:oid:2.16.840.1.113883.6.238",
+              "code" : "2184-0",
+              "display" : "Dominican"
+            }
+          },
+          {
+            "url" : "detailed",
+            "valueCoding" : {
+              "system" : "urn:oid:2.16.840.1.113883.6.238",
+              "code" : "2148-5",
+              "display" : "Mexican"
+            }
+          },
+          {
+            "url" : "text",
+            "valueString" : "Hispanic or Latino"
+          }
+        ]
+      },
+      {
+        "url" : "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode" : "M"
+      }
+    ],
+    "active" : true,
+    "name" : [
+      {
+        "family" : "SMITH",
+        "given" : [
+          "JANE"
+        ]
+      }      
+    ],
+    "telecom" : [
+      {
+        "system" : "phone",
+        "value" : "555-555-5554",
+        "use" : "home"
+      }
+    ],
+    "gender" : "female",
+    "birthDate" : "1981-01-10",
+    "address" : [
+      {
+        "line" : [
+          "49 Meadow St"
+        ],
+        "city" : "Birmingham",
+        "state" : "AL",
+        "postalCode" : "35242",
+        "country" : "US",
+        "period" : {
+          "start" : "2005-02-20",
+          "end" : "2020-06-01"
+        }
+      },
+      {
+        "line" : [
+          "183 Harbor View St"
+        ],
+        "city" : "Boston",
+        "state" : "MA",
+        "postalCode" : "02101",
+        "country" : "US",
+        "period" : {
+          "start" : "2020-06-15"
+        }
+      }
+    ]
+  }

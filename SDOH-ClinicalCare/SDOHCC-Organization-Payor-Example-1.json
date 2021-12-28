@@ -1,0 +1,29 @@
+{
+    "resourceType" : "Organization",
+    "id" : "SDOHCC-Organization-Payor-Example-1",
+    "meta" : {
+      "versionId" : "3",
+      "lastUpdated" : "2021-04-14T15:11:25.656+00:00",
+      "source" : "#9HGhgnEvzbWYnflv",
+      "profile" : [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>name</b>: CDE Payor</p><p><b>address</b>: 132th St, Underland Park, KS 66223</p></div>"
+    },
+    "active" : true,
+    "name" : "CDE Payor",
+    "address" : [
+      {
+        "text" : "132th St, Underland Park, KS 66223",
+        "line" : [
+          "132th Street,"
+        ],
+        "city" : "Underland Park",
+        "state" : "KS",
+        "postalCode" : "66223"
+      }
+    ]
+  }

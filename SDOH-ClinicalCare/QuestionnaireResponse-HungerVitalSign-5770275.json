@@ -1,0 +1,76 @@
+{
+    "resourceType" : "QuestionnaireResponse",
+    "id" : "QR-5770275",
+    "meta" : {
+      "versionId" : "7",
+      "lastUpdated" : "2021-05-06T22:27:01.346+00:00",
+      "source" : "#QOlz1ZRlPzI51to0",
+      "profile" : [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse|2.7"
+      ]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href=\"http://hl7.org/fhir/us/sdoh-clinicalcare/Questionnaire/SDOHCC-Questionnaire-HungerVitalSign-1\">http://hl7.org/fhir/us/sdoh-clinicalcare/Questionnaire/SDOHCC-Questionnaire-HungerVitalSign-1</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-pat-53234.html\">COLIN ABBAS. Generated Summary: Medical Record Number: 1032702 (USUAL); active; COLIN V. ABBAS , COLIN V. BAXTER ; Phone: 555-555-5555; gender: male; birthDate: 1987-02-20</a></p><p><b>authored</b>: Sep 10, 2020, 9:56:54 PM</p><p><b>source</b>: <a href=\"Patient-pat-53234.html\">COLIN ABBAS. Generated Summary: Medical Record Number: 1032702 (USUAL); active; COLIN V. ABBAS , COLIN V. BAXTER ; Phone: 555-555-5555; gender: male; birthDate: 1987-02-20</a></p><blockquote><p><b>item</b></p><p><b>linkId</b>: /88122-7</p><p><b>text</b>: (I/We) worried whether (my/our) food would run out before (I/we) got money to buy more.</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title=\"{http://loinc.org LA28397-0}\">Often true</span></td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: /88123-5</p><p><b>text</b>: The food that (I/we) bought just didn't last, and (I/we) didn't have money to get more.</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title=\"{http://loinc.org LA28397-0}\">Often true</span></td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: /88124-3</p><p><b>text</b>: Food insecurity risk</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title=\"{http://loinc.org LA19952-3}\">At risk</span></td></tr></table></blockquote></div>"
+    },
+    "questionnaire" : "http://hl7.org/fhir/us/sdoh-clinicalcare/Questionnaire/SDOHCC-Questionnaire-HungerVitalSign-1",
+    "_questionnaire" : {
+      "extension" : [
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/display",
+          "valueString" : "SDOHCC Questionnaire HungerVitalSign 1"
+        }
+      ]
+    },
+    "status" : "completed",
+    "subject" : {
+      "reference" : "Patient/pat-53234",
+      "display" : "COLIN ABBAS"
+    },
+    "authored" : "2020-09-10T21:56:54.671Z",
+    "source" : {
+      "reference" : "Patient/pat-53234",
+      "display" : "COLIN ABBAS"
+    },
+    "item" : [
+      {
+        "linkId" : "/88122-7",
+        "text" : "(I/We) worried whether (my/our) food would run out before (I/we) got money to buy more.",
+        "answer" : [
+          {
+            "valueCoding" : {
+              "system" : "http://loinc.org",
+              "code" : "LA28397-0",
+              "display" : "Often true"
+            }
+          }
+        ]
+      },
+      {
+        "linkId" : "/88123-5",
+        "text" : "The food that (I/we) bought just didn't last, and (I/we) didn't have money to get more.",
+        "answer" : [
+          {
+            "valueCoding" : {
+              "system" : "http://loinc.org",
+              "code" : "LA28397-0",
+              "display" : "Often true"
+            }
+          }
+        ]
+      },
+      {
+        "linkId" : "/88124-3",
+        "text" : "Food insecurity risk",
+        "answer" : [
+          {
+            "valueCoding" : {
+              "system" : "http://loinc.org",
+              "code" : "LA19952-3",
+              "display" : "At risk"
+            }
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,22 @@
+{
+  "resourceType" : "RelatedPerson",
+  "id" : "stranger-001",
+  "active" : true,
+  "name" : [
+    {
+      "family" : "STRANGER",
+      "given" : [
+        "RANDOM"
+      ]
+    }      
+  ],
+  "telecom" : [
+    {
+      "system" : "phone",
+      "value" : "212-555-1253",
+      "use" : "home"
+    }
+  ],
+  "gender" : "female",
+  "birthDate" : "1983-01-14"
+}

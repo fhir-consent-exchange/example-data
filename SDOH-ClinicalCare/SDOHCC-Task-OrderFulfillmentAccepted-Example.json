@@ -1,0 +1,34 @@
+{
+    "resourceType" : "Task",
+    "id" : "SDOHCC-Task-OrderFulfillmentAccepted-Example",
+    "meta" : {
+      "versionId" : "1",
+      "lastUpdated" : "2021-04-14T14:13:45.659+00:00",
+      "source" : "#OMyqVZadJ0YaGgSt",
+      "profile" : [
+        "http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Task-Base-1"
+      ]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: accepted</p><p><b>intent</b>: order</p><p><b>code</b>: <span title=\"Codes: {http://hl7.org/fhir/CodeSystem/task-code fulfill}\">Fulfill the focal request</span></p><p><b>focus</b>: <a href=\"ServiceRequest-SDOHCC-ServiceRequest-HungerVitalSign-Example-1.html\">Generated Summary: status: completed; intent: order; <span title=\"Codes: {http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes food-insecurity}\">Food Insecurity</span>; <span title=\"Codes: {http://snomed.info/sct 467771000124109}\">Assistance with application for food pantry program</span></a></p><p><b>for</b>: <a href=\"Patient-pat-53234.html\">COLIN ABBAS. Generated Summary: Medical Record Number: 1032702 (USUAL); active; COLIN V. ABBAS , COLIN V. BAXTER ; Phone: 555-555-5555; gender: male; birthDate: 1987-02-20</a></p></div>"
+    },
+    "status" : "accepted",
+    "intent" : "order",
+    "code" : {
+      "coding" : [
+        {
+          "system" : "http://hl7.org/fhir/CodeSystem/task-code",
+          "code" : "fulfill",
+          "display" : "Fulfill the focal request"
+        }
+      ]
+    },
+    "focus" : {
+      "reference" : "ServiceRequest/SDOHCC-ServiceRequest-HungerVitalSign-Example-1"
+    },
+    "for" : {
+      "reference" : "Patient/pat-53234",
+      "display" : "COLIN ABBAS"
+    }
+  }
